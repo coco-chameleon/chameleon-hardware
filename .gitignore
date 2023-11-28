@@ -1,0 +1,11 @@
+
+# KiCAD backups and working files
+/board/*/*-backups/
+/board/**/fp-info-cache
+/board/**/*.bak
+/board/**/*.kicad_prl
+/board/**/~*.lck
+
+# Vim backups
+.*.sw?
+

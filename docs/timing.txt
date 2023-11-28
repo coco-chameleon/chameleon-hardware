@@ -1,0 +1,16 @@
+
+Per MC6809E datasheet:
+  E fall to address valid = 200ns max
+  read data setup time (to E fall) = 80ns min
+  read data hold time (from E fall) = 10ns min
+
+Per CoCo2 service manual:
+  E clock rate = 894.88625 kHz (14.31818 MHz crystal /4 /4)
+  E clock period = 1117ns
+    low time = 629ns
+    high time = 488ns
+
+
+usable read access time = 837ns
+
+
