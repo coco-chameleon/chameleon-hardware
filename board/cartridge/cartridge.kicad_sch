@@ -5,11 +5,11 @@
   (paper "USLetter")
 
   (title_block
-    (title "TRS-80 CoCo2 Cart Emulator")
+    (title "CoCo Chameleon - Cartridge Emulator")
     (date "2023-11-24")
     (rev "v0.1")
     (company "© 2023 Sam Hanes, licensed under CERN-OHL-W v2")
-    (comment 1 "https://github.com/Elemecca/coco-wedge")
+    (comment 1 "https://github.com/elemecca/coco-chameleon")
   )
 
   (lib_symbols
@@ -4379,7 +4379,7 @@
     )
     (pin "1" (uuid 9fdb874a-f533-4ed6-8e0b-b1d208e1e98d))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR010") (unit 1)
         )
@@ -4404,7 +4404,7 @@
     )
     (pin "1" (uuid 543de5a2-141b-40e5-9fbc-332f0c1deb10))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR04") (unit 1)
         )
@@ -4430,7 +4430,7 @@
     (pin "2" (uuid f7499a00-75ad-4d8c-8ec2-8c331b2fd934))
     (pin "1" (uuid e7d4f2fb-aab5-4ac8-a480-8b0ef30d9f51))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "Y1") (unit 1)
         )
@@ -4455,7 +4455,7 @@
     )
     (pin "1" (uuid 61493d9a-937d-45f0-ad9e-5ab80609bbb1))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR027") (unit 1)
         )
@@ -4481,7 +4481,7 @@
     (pin "2" (uuid f4d4237c-0d6f-4294-96ad-dc7c8946bebf))
     (pin "1" (uuid 0b6bdfa2-8118-402a-83e8-54fad3e143e3))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "C9") (unit 1)
         )
@@ -4506,7 +4506,7 @@
     )
     (pin "1" (uuid 1d84ce39-0921-4cc8-9e7c-d4e2e686e052))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR020") (unit 1)
         )
@@ -4531,7 +4531,7 @@
     )
     (pin "1" (uuid 8eb26598-2e78-40b8-a1a7-8540207d2cef))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR03") (unit 1)
         )
@@ -4561,7 +4561,7 @@
     (pin "1" (uuid 3aa86f3e-d6e3-4d42-8d7c-de7cd0629550))
     (pin "2" (uuid de9117a1-d114-4e47-9194-d200f98cfdbe))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "U1") (unit 1)
         )
@@ -4593,7 +4593,7 @@
     (pin "2" (uuid fb31956b-88eb-4a13-ac4d-1d4a35e52dc0))
     (pin "4" (uuid 83a260a2-714a-491c-9cee-71da1790911a))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "U3") (unit 1)
         )
@@ -4628,7 +4628,7 @@
     (pin "1" (uuid 519b1ee4-b6c3-4b75-83cc-fc72eb99c1b6))
     (pin "2" (uuid b12af90c-a86f-44c3-b2c6-1009142af1d6))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "D2") (unit 1)
         )
@@ -4653,7 +4653,7 @@
     )
     (pin "1" (uuid 3d25f2c5-6e7c-4566-a3f5-d64fd6165dc0))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR016") (unit 1)
         )
@@ -4679,7 +4679,7 @@
     (pin "2" (uuid e8f0f099-d18d-4ea1-a6b5-1d7bd75d4623))
     (pin "1" (uuid c716470a-d2b7-4071-8613-8594a41d573c))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "C12") (unit 1)
         )
@@ -4704,7 +4704,7 @@
     )
     (pin "1" (uuid 7362df80-351d-497b-bfdc-344d637943bd))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR06") (unit 1)
         )
@@ -4738,7 +4738,7 @@
     (pin "5" (uuid 59b1f77e-045a-499c-a29b-7e6333ed188b))
     (pin "9" (uuid 88b38edb-3597-438d-87d6-9b610ccb2888))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "J3") (unit 1)
         )
@@ -4763,7 +4763,7 @@
     )
     (pin "1" (uuid 1b3d8ee5-a55c-4624-ad03-0d666facf860))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR018") (unit 1)
         )
@@ -4788,7 +4788,7 @@
     )
     (pin "1" (uuid a99baafd-bdcc-4ccc-a0f0-5518c61c2664))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR026") (unit 1)
         )
@@ -4813,7 +4813,7 @@
     )
     (pin "1" (uuid 1b3fa518-867a-4809-9c45-33ecbfc36da7))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR024") (unit 1)
         )
@@ -4838,7 +4838,7 @@
     )
     (pin "1" (uuid eaedb1e2-cd5b-49a6-ba33-825f15311ba0))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR031") (unit 1)
         )
@@ -4864,7 +4864,7 @@
     (pin "1" (uuid b6a7ecfb-323c-407f-b4c8-c56d736d8edc))
     (pin "2" (uuid 6204d3ad-90ee-4bf7-9d59-80e953750fc2))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "SW1") (unit 1)
         )
@@ -4889,7 +4889,7 @@
     )
     (pin "1" (uuid 7ef9877a-bf57-468f-a357-132b78a3b44a))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR02") (unit 1)
         )
@@ -4977,7 +4977,7 @@
     (pin "42" (uuid e287e9fa-5b62-4525-88c9-9a049bc1baaf))
     (pin "63" (uuid 91d6eaa8-9de7-4934-a764-9228d1765750))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "U2") (unit 1)
         )
@@ -5003,7 +5003,7 @@
     (pin "2" (uuid 60032e4f-59f2-4961-8e2c-55465f3e0c55))
     (pin "1" (uuid f7eddbaf-233d-459e-bfc9-75bb17e44f2f))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "C13") (unit 1)
         )
@@ -5028,7 +5028,7 @@
     )
     (pin "1" (uuid ec4112b3-e6f0-458e-b595-f793f1003988))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR05") (unit 1)
         )
@@ -5054,7 +5054,7 @@
     (pin "2" (uuid d9b2d60e-6106-4254-be52-abd2d6266543))
     (pin "1" (uuid c64719b8-94f8-4b22-9983-c1024be5b887))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "C1") (unit 1)
         )
@@ -5080,7 +5080,7 @@
     (pin "2" (uuid 8edeb5d5-c9af-4fd1-ba2c-c22fffed2de0))
     (pin "1" (uuid 31b3ffe4-60a4-4742-847d-db91ab19cbe5))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "C7") (unit 1)
         )
@@ -5105,7 +5105,7 @@
     )
     (pin "1" (uuid 66726454-2b15-427d-b61d-051632b8621a))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR08") (unit 1)
         )
@@ -5130,7 +5130,7 @@
     )
     (pin "1" (uuid f2489877-237f-427f-9876-e91e97c8c255))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR025") (unit 1)
         )
@@ -5156,7 +5156,7 @@
     (pin "2" (uuid 943ac0c8-b4e3-461e-9c5f-c2808efa4599))
     (pin "1" (uuid 0023f324-bd48-40b7-9a85-7f893a191a0e))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "C5") (unit 1)
         )
@@ -5182,7 +5182,7 @@
     (pin "2" (uuid 02f4d1ab-d6c3-44a1-a43c-f57f1cd46235))
     (pin "1" (uuid 7ad16c47-b1df-42d7-8702-234b29ca260b))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "C11") (unit 1)
         )
@@ -5208,7 +5208,7 @@
     (pin "2" (uuid a824e437-93d0-4b30-9511-5d9053416326))
     (pin "1" (uuid 3374acdd-729d-4b79-874c-f65aff689911))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "C2") (unit 1)
         )
@@ -5234,7 +5234,7 @@
     (pin "2" (uuid 6bded69e-b597-443d-a9c3-65a8d72489f9))
     (pin "1" (uuid 2a69a564-4929-4618-9dfd-50a7c5a74077))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "C8") (unit 1)
         )
@@ -5259,7 +5259,7 @@
     )
     (pin "1" (uuid e2b32c3b-19c1-4570-95bb-709c7ac90bc6))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR07") (unit 1)
         )
@@ -5284,7 +5284,7 @@
     )
     (pin "1" (uuid 234ab977-b432-45e5-b703-0fcabc6e309e))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR012") (unit 1)
         )
@@ -5310,7 +5310,7 @@
     (pin "2" (uuid cac54dbb-6da8-4645-905c-a2d10c1df47f))
     (pin "1" (uuid 1b7b9bcf-be03-442f-ae10-a40f207b23b4))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "C3") (unit 1)
         )
@@ -5335,7 +5335,7 @@
     )
     (pin "1" (uuid 6021ff49-b2a5-4c9a-b6f6-9d33575faa05))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR028") (unit 1)
         )
@@ -5361,7 +5361,7 @@
     (pin "1" (uuid 5fe63d48-e49b-4526-9764-7cc11eecf316))
     (pin "2" (uuid 4ff342b1-9d89-4a44-afcf-504e04ba4ca6))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "R2") (unit 1)
         )
@@ -5387,7 +5387,7 @@
     (pin "2" (uuid be1c80be-c959-414e-8c43-ba68b03cce34))
     (pin "1" (uuid 785b9b01-b142-4672-adfa-525ec25647f4))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "C4") (unit 1)
         )
@@ -5412,7 +5412,7 @@
     )
     (pin "1" (uuid 16e74652-f5ee-4446-ad44-05974db6877b))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR013") (unit 1)
         )
@@ -5447,7 +5447,7 @@
     (pin "1" (uuid 5955121f-5fd5-4d58-8454-b934a342839c))
     (pin "2" (uuid 07650e25-9768-443f-81d7-6fd4bd871de6))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "D1") (unit 1)
         )
@@ -5472,7 +5472,7 @@
     )
     (pin "1" (uuid 040ed0e3-417d-427e-bd11-c8f3299559a2))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR022") (unit 1)
         )
@@ -5510,7 +5510,7 @@
     (pin "4" (uuid 693fbda2-780b-4035-831d-766ef6ac0c1d))
     (pin "9" (uuid 04d731a3-ed3e-4c7c-9926-3481d1bd8418))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "J1") (unit 1)
         )
@@ -5535,7 +5535,7 @@
     )
     (pin "1" (uuid eca6764c-0086-499f-95d3-69be80deb73c))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR014") (unit 1)
         )
@@ -5560,7 +5560,7 @@
     )
     (pin "1" (uuid eba99197-2228-4035-aa18-089258b89c01))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR011") (unit 1)
         )
@@ -5585,7 +5585,7 @@
     )
     (pin "1" (uuid 9f17694b-fa6c-42d9-9f75-7cbb865019bc))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR030") (unit 1)
         )
@@ -5611,7 +5611,7 @@
     (pin "1" (uuid 79368483-47e7-4d7f-8caa-3b2659ae0b4d))
     (pin "2" (uuid 61af8e78-c928-47fd-ac6e-dd9241a4f6f2))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "R3") (unit 1)
         )
@@ -5636,7 +5636,7 @@
     )
     (pin "1" (uuid c5331bde-68bd-4588-8226-7a52673b6c15))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR09") (unit 1)
         )
@@ -5661,7 +5661,7 @@
     )
     (pin "1" (uuid 07b4a6a7-bab6-475e-8ef1-0079d3add716))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR01") (unit 1)
         )
@@ -5686,7 +5686,7 @@
     )
     (pin "1" (uuid d60f9fef-7615-40d6-aeec-3e52b462c304))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR019") (unit 1)
         )
@@ -5711,7 +5711,7 @@
     )
     (pin "1" (uuid 87be7899-6074-4fbf-bcdc-b56b63fc0938))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#FLG01") (unit 1)
         )
@@ -5737,7 +5737,7 @@
     (pin "2" (uuid 77fbf5b4-6ede-42ec-9d30-b04e8bb0089c))
     (pin "1" (uuid 21e65740-f1e5-4088-9377-4f7217d638e0))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "C6") (unit 1)
         )
@@ -5762,7 +5762,7 @@
     )
     (pin "1" (uuid 97add6f4-b929-49ed-b075-ba33e48945fc))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR015") (unit 1)
         )
@@ -5787,7 +5787,7 @@
     )
     (pin "1" (uuid 778aeac0-5353-42ea-bfde-3f4954cfa71b))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR029") (unit 1)
         )
@@ -5836,7 +5836,7 @@
     (pin "19" (uuid d515efee-ea94-482d-884c-7e69f8e21d25))
     (pin "24" (uuid fa2c9c39-be7c-4f5a-9bf9-8338b6940356))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "U4") (unit 1)
         )
@@ -5862,7 +5862,7 @@
     (pin "2" (uuid 6814acb6-5e61-47d5-bb3e-f42c71f59d2d))
     (pin "1" (uuid 930ed759-dbc9-492e-8fd2-c47e74362d10))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "C10") (unit 1)
         )
@@ -5889,7 +5889,7 @@
     (pin "1" (uuid 5427ee72-af20-4c01-aac3-1b3c4ef33771))
     (pin "3" (uuid 5b1cf2e8-82e1-460b-a6db-76b67d55bddd))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "SW2") (unit 1)
         )
@@ -5914,7 +5914,7 @@
     )
     (pin "1" (uuid 06badd5b-6580-4e6f-8d51-cc0204ddcac3))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR021") (unit 1)
         )
@@ -5939,7 +5939,7 @@
     )
     (pin "1" (uuid 8cbc7b5a-91d7-4369-b6ca-bb70ca739905))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR017") (unit 1)
         )
@@ -5983,7 +5983,7 @@
     (pin "B7" (uuid 43a2c8aa-5fd5-4e72-a9d0-cd2a74fed52f))
     (pin "A1" (uuid ede3fafb-2e3f-4ad3-a61a-6363fc44dbca))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "J2") (unit 1)
         )
@@ -6009,7 +6009,7 @@
     (pin "1" (uuid 8588a819-df5f-4715-9ed2-fd8bcafa8499))
     (pin "2" (uuid 8ae398e6-a913-4adc-9ef2-9fa883117a5d))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "R1") (unit 1)
         )
@@ -6073,7 +6073,7 @@
     (pin "9" (uuid d1f2f851-8d4d-4217-bdeb-696f30484aeb))
     (pin "25" (uuid 3e93edb4-dbe4-444a-93bf-c7d9faeea604))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "P1") (unit 1)
         )
@@ -6098,7 +6098,7 @@
     )
     (pin "1" (uuid 3b95c78c-bf3e-4475-b445-0a536d370dfa))
     (instances
-      (project "coco-wedge"
+      (project "cartridge"
         (path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
           (reference "#PWR023") (unit 1)
         )

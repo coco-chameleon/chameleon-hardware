@@ -6,11 +6,11 @@
 
   (paper "USLetter")
   (title_block
-    (title "TRS-80 CoCo Cart Emulator")
+    (title "CoCo Chameleon - Cartridge Emulator")
     (date "2023-11-24")
     (rev "v0.1")
     (company "© 2023 Sam Hanes, licensed under CERN-OHL-W v2")
-    (comment 1 "https://github.com/Elemecca/coco-wedge")
+    (comment 1 "https://github.com/elemecca/coco-chameleon")
   )
 
   (layers
