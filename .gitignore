@@ -1,6 +1,8 @@
 
 # KiCAD backups and working files
 /board/*/*-backups/
+/board/*/dist/
+/board/*/jlcpcb/
 /board/*/fp-info-cache
 /board/*/#auto_saved_files#
 /board/**/*.bak
