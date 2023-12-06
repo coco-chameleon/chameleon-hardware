@@ -62,7 +62,7 @@
   (pad "11" smd rect (at 6.675 7.2) (size 1.3 1.5) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45) (tstamp 482767a1-038a-4da6-adda-13cc5514ddf9))
   (model "${KIPRJMOD}/../project.3dshapes/Foxconn_WQ21823-DES1-7F.step"
-    (offset (xyz 0 0 0))
+    (offset (xyz 0 -0.25 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

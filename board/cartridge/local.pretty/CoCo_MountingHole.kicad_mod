@@ -1,0 +1,21 @@
+(footprint "CoCo_MountingHole" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 70d2efda-b989-4967-a457-e457c84f3cba)
+  )
+  (fp_text value "CoCo_MountingHole" (at 0 1 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 79dd2582-ed10-4ddc-9904-5a7513d48f0e)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp cad8bd16-866c-440b-81bf-56f857269d59)
+  )
+  (fp_circle (center 0 0) (end 3.175 0)
+    (stroke (width 0.05) (type default)) (fill none) (layer "B.CrtYd") (tstamp af308eaf-df87-472c-bcb1-cf4c0411fecf))
+  (fp_circle (center 0 0) (end -3.175 0)
+    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 47573777-b515-4d45-bec4-fcf464447636))
+  (pad "" np_thru_hole circle (at 0 0) (size 5.715 5.715) (drill 3.6068) (layers "*.Mask") (tstamp 3de2fd3c-48a6-4507-b0ec-7d35252c56cb))
+)

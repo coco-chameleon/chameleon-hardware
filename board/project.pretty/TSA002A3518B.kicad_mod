@@ -40,7 +40,7 @@
   (pad "1" smd rect (at -1.7 0.85) (size 0.6 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7917cf73-fd98-4afe-ae70-abe8fa834480))
   (pad "2" smd rect (at 1.7 0.85) (size 0.6 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f16eda83-5d6d-4716-b2e7-6c1a643b83b1))
   (model "${KIPRJMOD}/../project.3dshapes/TSA002A3518B.step"
-    (offset (xyz 0 0 1))
+    (offset (xyz 0 0.125 1))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

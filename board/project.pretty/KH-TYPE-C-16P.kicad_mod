@@ -54,7 +54,7 @@
   (pad "S1" thru_hole oval (at 4.32 2.385) (size 1 1.8) (drill oval 0.6 1.4) (layers "*.Cu" "*.Mask")
     (thermal_bridge_angle 45) (tstamp a62b20a4-4320-4563-be99-36a9f9d60d00))
   (model "${KIPRJMOD}/../project.3dshapes/KH-TYPE-C-16P.step"
-    (offset (xyz 0 0 0))
+    (offset (xyz 0 -1.35 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

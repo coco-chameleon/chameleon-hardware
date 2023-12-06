@@ -1,0 +1,19 @@
+(footprint "CoCo_ClearanceHole" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 38523423-3cb7-4d39-b8dd-668e3b4409ac)
+  )
+  (fp_text value "CoCo_ClearanceHole" (at 0 1 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 1b4793ec-5fa2-4e2c-ba0c-962e5119f0c4)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 3566fde0-6d8d-4b0f-ab78-26b449617127)
+  )
+  (fp_circle (center 0 0) (end 5.08 0)
+    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp f91f4292-7164-4927-83e3-c8d2d6fb3ad4))
+  (pad "" np_thru_hole circle (at 0 0 180) (size 7.62 7.62) (drill 7.62) (layers "*.Mask") (tstamp 61e70cd2-cb46-4541-9c50-9aa5169e7cef))
+)
