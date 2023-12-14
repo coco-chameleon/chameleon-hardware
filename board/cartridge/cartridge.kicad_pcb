@@ -188,6 +188,26 @@
   (net 89 "Net-(D4-K)")
   (net 90 "Net-(D5-K)")
 
+  (footprint "0Project:JLC_ToolingHole" (layer "F.Cu")
+    (tstamp 0a81e4fe-15e6-4ed4-879e-6fc9f29525c3)
+    (at 173 125)
+    (attr through_hole board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+    (fp_text reference "REF**" (at 0 -2 unlocked) (layer "F.SilkS") hide
+        (effects (font (size 1 1) (thickness 0.1)))
+      (tstamp 6284bb34-4d88-449d-b998-af3b2157985b)
+    )
+    (fp_text value "JLC_ToolingHole" (at 0 2.5 unlocked) (layer "F.Fab") hide
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 5fa40bce-a541-4cc7-91a9-0601a0723790)
+    )
+    (fp_text user "${REFERENCE}" (at 0 4 unlocked) (layer "F.Fab") hide
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp c2670c28-5d1e-4786-bd78-a2af6a985abe)
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 1.152 1.152) (drill 1.152) (layers "F&B.Cu" "*.Mask")
+      (solder_mask_margin 0.148) (thermal_bridge_angle 90) (tstamp 4ba316b6-91fb-4479-8b48-93f6d230c6e3))
+  )
+
   (footprint "LED_SMD:LED_0603_1608Metric" (layer "F.Cu")
     (tstamp 1129e6e6-a444-4424-b77b-8fd777797d3f)
     (at 170 113.4)
@@ -860,6 +880,26 @@
     )
   )
 
+  (footprint "0Project:JLC_ToolingHole" (layer "F.Cu")
+    (tstamp 5c7eb9a2-f8b0-4baf-b22f-48989b06b72e)
+    (at 122 125)
+    (attr through_hole board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+    (fp_text reference "REF**" (at 0 -2 unlocked) (layer "F.SilkS") hide
+        (effects (font (size 1 1) (thickness 0.1)))
+      (tstamp 22e888a8-671b-48ae-97fe-948e0a6f8f85)
+    )
+    (fp_text value "JLC_ToolingHole" (at 0 2.5 unlocked) (layer "F.Fab") hide
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 016baf7a-0424-4a2e-bb55-47d165793a74)
+    )
+    (fp_text user "${REFERENCE}" (at 0 4 unlocked) (layer "F.Fab") hide
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp c4b5a8dc-6392-4948-84b1-025cd2eb7066)
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 1.152 1.152) (drill 1.152) (layers "F&B.Cu" "*.Mask")
+      (solder_mask_margin 0.148) (thermal_bridge_angle 90) (tstamp bc9b244f-3a8c-453f-91fc-d3f7fc4c32a0))
+  )
+
   (footprint "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical" (layer "F.Cu")
     (tstamp 69f3da2b-9e39-4019-8595-9a3e1ed9df62)
     (at 137 77.165 180)
@@ -1299,6 +1339,26 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+  )
+
+  (footprint "0Project:JLC_ToolingHole" (layer "F.Cu")
+    (tstamp b08538ed-4aae-4164-9768-c8e1bd228f09)
+    (at 122 75)
+    (attr through_hole board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+    (fp_text reference "REF**" (at 0 -2 unlocked) (layer "F.SilkS") hide
+        (effects (font (size 1 1) (thickness 0.1)))
+      (tstamp d8c83e1e-55ef-4bd9-8f51-6ccf02a09dce)
+    )
+    (fp_text value "JLC_ToolingHole" (at 0 2.5 unlocked) (layer "F.Fab") hide
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 8851fc1a-8183-4583-952f-eed170abec19)
+    )
+    (fp_text user "${REFERENCE}" (at 0 4 unlocked) (layer "F.Fab") hide
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 9325c93e-3a51-49d5-9cc8-32b3ffcc3713)
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 1.152 1.152) (drill 1.152) (layers "F&B.Cu" "*.Mask")
+      (solder_mask_margin 0.148) (thermal_bridge_angle 90) (tstamp 1f26e922-9225-4f09-8b3d-a8627d6664d8))
   )
 
   (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" (layer "F.Cu")

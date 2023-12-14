@@ -1,0 +1,18 @@
+(footprint "JLC_ToolingHole" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+  (fp_text reference "REF**" (at 0 -2 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 9d3852d9-3232-450d-95c0-4f547b7c6c1f)
+  )
+  (fp_text value "JLC_ToolingHole" (at 0 2.5 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 2194a315-9c16-4a9d-acb5-91e4136a847d)
+  )
+  (fp_text user "${REFERENCE}" (at 0 4 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 26baa037-5f6e-496c-b9be-bcdea1feb39b)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 1.152 1.152) (drill 1.152) (layers "F&B.Cu" "*.Mask")
+    (solder_mask_margin 0.148) (thermal_bridge_angle 90) (tstamp cac46d5c-817e-4331-8c68-82fc17ef6fdb))
+)
