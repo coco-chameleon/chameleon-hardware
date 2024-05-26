@@ -1,21 +1,112 @@
-(footprint "CoCo_MountingHole" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.1)))
-    (tstamp 70d2efda-b989-4967-a457-e457c84f3cba)
-  )
-  (fp_text value "CoCo_MountingHole" (at 0 1 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 79dd2582-ed10-4ddc-9904-5a7513d48f0e)
-  )
-  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp cad8bd16-866c-440b-81bf-56f857269d59)
-  )
-  (fp_circle (center 0 0) (end 3.175 0)
-    (stroke (width 0.05) (type default)) (fill none) (layer "B.CrtYd") (tstamp af308eaf-df87-472c-bcb1-cf4c0411fecf))
-  (fp_circle (center 0 0) (end -3.175 0)
-    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 47573777-b515-4d45-bec4-fcf464447636))
-  (pad "" np_thru_hole circle (at 0 0) (size 5.715 5.715) (drill 3.6068) (layers "*.Mask") (tstamp 3de2fd3c-48a6-4507-b0ec-7d35252c56cb))
+(footprint "CoCo_MountingHole"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "70d2efda-b989-4967-a457-e457c84f3cba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CoCo_MountingHole"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79dd2582-ed10-4ddc-9904-5a7513d48f0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "CoCo_MountingHole"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d657cab-ded8-4d65-afa4-f68f5ecd7f03")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9913fb6b-57e6-478e-97c3-51edf3a55932")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cca47da8-846c-4834-9cab-c5ded2ac3243")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(clearance 1.3716)
+	(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 3.175 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "B.CrtYd")
+		(uuid "af308eaf-df87-472c-bcb1-cf4c0411fecf")
+	)
+	(fp_circle
+		(center 0 0)
+		(end -3.175 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "47573777-b515-4d45-bec4-fcf464447636")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cad8bd16-866c-440b-81bf-56f857269d59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 5.715 5.715)
+		(drill 3.6068)
+		(layers "*.Mask")
+		(uuid "3de2fd3c-48a6-4507-b0ec-7d35252c56cb")
+	)
 )
