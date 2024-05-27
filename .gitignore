@@ -5,6 +5,7 @@
 /board/*/jlcpcb/
 /board/*/fp-info-cache
 /board/*/#auto_saved_files#
+/board/*/_autosave-*
 /board/**/*.bak
 /board/**/*.kicad_prl
 /board/**/~*.lck
