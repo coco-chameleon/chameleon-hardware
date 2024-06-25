@@ -2114,7 +2114,7 @@
 		(symbol "ESP32-S3-WROOM-1U_0_1"
 			(polyline
 				(pts
-					(xy 0 -7.62) (xy -12.7 -7.62)
+					(xy 0 -2.54) (xy -12.7 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -2126,7 +2126,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 20.32) (xy 12.7 20.32)
+					(xy 0 17.78) (xy 12.7 17.78)
 				)
 				(stroke
 					(width 0)
@@ -2151,7 +2151,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -7.62) (xy 0 20.32)
+					(xy 0 -2.54) (xy 0 17.78)
 				)
 				(stroke
 					(width 0)
@@ -2196,7 +2196,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 15.24 -17.78 180)
+				(at 15.24 -20.32 180)
 				(length 2.54)
 				(name "GPIO17"
 					(effects
@@ -2214,7 +2214,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 15.24 -20.32 180)
+				(at 15.24 -22.86 180)
 				(length 2.54)
 				(name "GPIO18"
 					(effects
@@ -2232,7 +2232,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 15.24 -5.08 180)
+				(at 15.24 -10.16 180)
 				(length 2.54)
 				(name "GPIO8"
 					(effects
@@ -2250,7 +2250,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 15.24 15.24 180)
+				(at 15.24 12.7 180)
 				(length 2.54)
 				(name "USB_D-"
 					(effects
@@ -2268,7 +2268,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 15.24 17.78 180)
+				(at 15.24 15.24 180)
 				(length 2.54)
 				(name "USB_D+"
 					(effects
@@ -2286,7 +2286,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 15.24 7.62 180)
+				(at 15.24 2.54 180)
 				(length 2.54)
 				(name "GPIO3"
 					(effects
@@ -2304,7 +2304,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 15.24 25.4 180)
+				(at 15.24 20.32 180)
 				(length 2.54)
 				(name "GPIO46"
 					(effects
@@ -2322,7 +2322,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 15.24 -7.62 180)
+				(at 15.24 -12.7 180)
 				(length 2.54)
 				(name "GPIO9"
 					(effects
@@ -2340,7 +2340,7 @@
 				)
 			)
 			(pin tri_state line
-				(at -15.24 -22.86 0)
+				(at -15.24 -17.78 0)
 				(length 2.54)
 				(name "GPIO10"
 					(effects
@@ -2358,7 +2358,7 @@
 				)
 			)
 			(pin tri_state line
-				(at -15.24 -20.32 0)
+				(at -15.24 -15.24 0)
 				(length 2.54)
 				(name "GPIO11"
 					(effects
@@ -2394,7 +2394,7 @@
 				)
 			)
 			(pin tri_state line
-				(at -15.24 -17.78 0)
+				(at -15.24 -12.7 0)
 				(length 2.54)
 				(name "GPIO12"
 					(effects
@@ -2412,7 +2412,7 @@
 				)
 			)
 			(pin tri_state line
-				(at -15.24 -15.24 0)
+				(at -15.24 -10.16 0)
 				(length 2.54)
 				(name "GPIO13"
 					(effects
@@ -2430,7 +2430,7 @@
 				)
 			)
 			(pin tri_state line
-				(at -15.24 -12.7 0)
+				(at -15.24 -7.62 0)
 				(length 2.54)
 				(name "GPIO14"
 					(effects
@@ -2448,7 +2448,7 @@
 				)
 			)
 			(pin tri_state line
-				(at -15.24 -10.16 0)
+				(at -15.24 -5.08 0)
 				(length 2.54)
 				(name "GPIO21"
 					(effects
@@ -2466,7 +2466,7 @@
 				)
 			)
 			(pin tri_state line
-				(at -15.24 -5.08 0)
+				(at -15.24 0 0)
 				(length 2.54)
 				(name "GPIO47"
 					(effects
@@ -2484,7 +2484,7 @@
 				)
 			)
 			(pin tri_state line
-				(at -15.24 -2.54 0)
+				(at -15.24 2.54 0)
 				(length 2.54)
 				(name "GPIO48"
 					(effects
@@ -2502,7 +2502,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 15.24 27.94 180)
+				(at 15.24 22.86 180)
 				(length 2.54)
 				(name "GPIO45"
 					(effects
@@ -2520,7 +2520,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 15.24 10.16 180)
+				(at 15.24 7.62 180)
 				(length 2.54)
 				(name "GPIO0"
 					(effects
@@ -2538,7 +2538,7 @@
 				)
 			)
 			(pin tri_state line
-				(at -15.24 20.32 0)
+				(at -15.24 25.4 0)
 				(length 2.54)
 				(name "GPIO35"
 					(effects
@@ -2556,7 +2556,7 @@
 				)
 			)
 			(pin tri_state line
-				(at -15.24 17.78 0)
+				(at -15.24 22.86 0)
 				(length 2.54)
 				(name "GPIO36"
 					(effects
@@ -2574,7 +2574,7 @@
 				)
 			)
 			(pin input line
-				(at 15.24 -25.4 180)
+				(at 15.24 -27.94 180)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -2592,7 +2592,7 @@
 				)
 			)
 			(pin tri_state line
-				(at -15.24 15.24 0)
+				(at -15.24 20.32 0)
 				(length 2.54)
 				(name "GPIO37"
 					(effects
@@ -2610,7 +2610,7 @@
 				)
 			)
 			(pin tri_state line
-				(at -15.24 12.7 0)
+				(at -15.24 17.78 0)
 				(length 2.54)
 				(name "GPIO38"
 					(effects
@@ -2628,7 +2628,7 @@
 				)
 			)
 			(pin tri_state line
-				(at -15.24 10.16 0)
+				(at -15.24 15.24 0)
 				(length 2.54)
 				(name "GPIO39"
 					(effects
@@ -2646,7 +2646,7 @@
 				)
 			)
 			(pin tri_state line
-				(at -15.24 7.62 0)
+				(at -15.24 12.7 0)
 				(length 2.54)
 				(name "GPIO40"
 					(effects
@@ -2664,7 +2664,7 @@
 				)
 			)
 			(pin tri_state line
-				(at -15.24 5.08 0)
+				(at -15.24 10.16 0)
 				(length 2.54)
 				(name "GPIO41"
 					(effects
@@ -2682,7 +2682,7 @@
 				)
 			)
 			(pin tri_state line
-				(at -15.24 2.54 0)
+				(at -15.24 7.62 0)
 				(length 2.54)
 				(name "GPIO42"
 					(effects
@@ -2700,7 +2700,7 @@
 				)
 			)
 			(pin tri_state line
-				(at -15.24 27.94 0)
+				(at 15.24 25.4 180)
 				(length 2.54)
 				(name "GPIO44"
 					(effects
@@ -2718,7 +2718,7 @@
 				)
 			)
 			(pin tri_state line
-				(at -15.24 25.4 0)
+				(at 15.24 27.94 180)
 				(length 2.54)
 				(name "GPIO43"
 					(effects
@@ -2736,7 +2736,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 15.24 22.86 180)
+				(at 15.24 5.08 180)
 				(length 2.54)
 				(name "GPIO2"
 					(effects
@@ -2754,7 +2754,7 @@
 				)
 			)
 			(pin tri_state line
-				(at -15.24 -27.94 0)
+				(at -15.24 -22.86 0)
 				(length 2.54)
 				(name "GPIO1"
 					(effects
@@ -2772,7 +2772,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 15.24 5.08 180)
+				(at 15.24 0 180)
 				(length 2.54)
 				(name "GPIO4"
 					(effects
@@ -2826,7 +2826,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 15.24 2.54 180)
+				(at 15.24 -2.54 180)
 				(length 2.54)
 				(name "GPIO5"
 					(effects
@@ -2844,7 +2844,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 15.24 0 180)
+				(at 15.24 -5.08 180)
 				(length 2.54)
 				(name "GPIO6"
 					(effects
@@ -2862,7 +2862,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 15.24 -2.54 180)
+				(at 15.24 -7.62 180)
 				(length 2.54)
 				(name "GPIO7"
 					(effects
@@ -2880,7 +2880,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 15.24 -12.7 180)
+				(at 15.24 -15.24 180)
 				(length 2.54)
 				(name "GPIO15"
 					(effects
@@ -2898,7 +2898,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 15.24 -15.24 180)
+				(at 15.24 -17.78 180)
 				(length 2.54)
 				(name "GPIO16"
 					(effects
@@ -5080,6 +5080,180 @@
 					)
 				)
 				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TPS2041B"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 5.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS2041B"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps2041.pdf"
+			(at -1.27 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single power-distribution switcher"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "1-chanel power-distribution USB"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOT?23*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TPS2041B_0_1"
+			(rectangle
+				(start -5.08 2.54)
+				(end 5.08 -7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "TPS2041B_1_1"
+			(pin power_out line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -10.16 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 7.62 -5.08 180)
+				(length 2.54)
+				(name "~{OC}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -5.08 0)
+				(length 2.54)
+				(name "~{EN}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
