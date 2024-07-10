@@ -1,4 +1,7 @@
 
+# enclosure outputs
+/enclosure/*.step
+
 # KiCAD backups and working files
 /board/*/*-backups/
 /board/*/dist/
@@ -9,6 +12,9 @@
 /board/**/*.bak
 /board/**/*.kicad_prl
 /board/**/~*.lck
+
+# FreeCAD backups
+*.FCBak
 
 # Vim backups
 .*.sw?
