@@ -9,7 +9,7 @@
 		(date "2024-03-02")
 		(rev "v0.2pre")
 		(company "© 2023 Sam Hanes, licensed CERN-OHL-W v2")
-		(comment 1 "https://github.com/elemecca/coco-chameleon")
+		(comment 1 "https://github.com/coco-chameleon/chameleon-hardware")
 	)
 	(lib_symbols
 		(symbol "0Project:+5V_HOST"
@@ -2722,6 +2722,178 @@
 				)
 			)
 		)
+		(symbol "Device:Battery_Cell"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery_Cell"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single-cell battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_Cell_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_Cell_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Polarized"
 			(pin_numbers hide)
 			(pin_names
@@ -4921,6 +5093,12 @@
 		(uuid "12640f42-f2ca-4d56-a0be-4ba8a00de7b0")
 	)
 	(junction
+		(at 240.03 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13707ef1-0e59-4bea-99c3-a7dce8220561")
+	)
+	(junction
 		(at 240.03 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4973,12 +5151,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b87aad4-20d4-4a16-80dc-6ee0c0935479")
-	)
-	(junction
-		(at 240.03 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6135c354-d3b4-40b0-8454-3ae28aa42b90")
 	)
 	(junction
 		(at 91.44 35.56)
@@ -5338,7 +5510,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 158.75) (xy 252.73 158.75)
+			(xy 240.03 156.21) (xy 252.73 156.21)
 		)
 		(stroke
 			(width 0)
@@ -5435,6 +5607,16 @@
 			(type default)
 		)
 		(uuid "1726a277-1c62-4d77-a993-e860fb29ef44")
+	)
+	(wire
+		(pts
+			(xy 240.03 156.21) (xy 240.03 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1754ec6b-1165-451f-9988-5e465ec4adae")
 	)
 	(polyline
 		(pts
@@ -5615,16 +5797,6 @@
 			(type dash)
 		)
 		(uuid "254bfade-bfc7-4679-8c44-2d611368167a")
-	)
-	(wire
-		(pts
-			(xy 240.03 158.75) (xy 240.03 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25c584cd-37ff-4ca2-b2b4-8257151b9cfe")
 	)
 	(wire
 		(pts
@@ -6788,7 +6960,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 153.67) (xy 240.03 158.75)
+			(xy 240.03 153.67) (xy 240.03 156.21)
 		)
 		(stroke
 			(width 0)
@@ -7331,9 +7503,9 @@
 		)
 		(uuid "2861b788-a5db-4380-83d0-0df5beeeb8ef")
 	)
-	(text "3.30  USB\n2.36  BASIC + Pak 1\n2.22  BASIC + Pak 2\n2.10  BASIC + Pak 3\n1.95  BASIC + Pak 4\n1.82  Menu + Pak 1\n1.65  Menu + Pak 2\n1.51  Menu + Pak 3\n1.36  Menu + Pak 4\n1.18  Pak + Pak 1\n1.03  Pak + Pak 2\n0.92  Pak + Pak 3\n0.80  Pak + Pak 4"
+	(text "3.30  USB\n2.36  BASIC + Pak 1\n2.22  BASIC + Pak 2\n2.10  BASIC + Pak 3\n1.95  BASIC + Pak 4\n1.82  Menu + Pak 1\n1.65  Menu + Pak 2\n1.51  Menu + Pak 3\n1.36  Menu + Pak 4\n1.18  Pak + Pak 1\n1.03  Pak + Pak 2\n0.92  Pak + Pak 3\n0.80  Pak + Pak 4\n0.00  Power Loss"
 		(exclude_from_sim no)
-		(at 243.332 175.768 0)
+		(at 243.332 174.498 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8058,7 +8230,7 @@
 		(uuid "ee88f117-d404-48df-9b38-3bd712d77c73")
 	)
 	(label "SWITCHES"
-		(at 252.73 158.75 180)
+		(at 252.73 156.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8501,6 +8673,71 @@
 			(project "cartridge"
 				(path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "062b8191-65a1-44f1-b520-2d85906dfdf2")
+		(property "Reference" "#PWR060"
+			(at 88.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bea027f-d566-4833-b724-05e7cb72dd8e")
+		)
+		(instances
+			(project "cartridge"
+				(path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -10228,6 +10465,75 @@
 			(project "cartridge"
 				(path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 88.9 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6524a86c-4474-46ca-8129-80b66f826102")
+		(property "Reference" "BT1"
+			(at 91.44 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CR2016"
+			(at 91.44 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0Project:BatteryHolder_Keystone_3027_1x2016"
+			(at 88.9 93.726 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 93.726 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 88.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89ffb9a1-d206-4bbf-9ab8-02980f9c79e6")
+		)
+		(pin "2"
+			(uuid "f11816c7-fae6-486e-b3bd-0194b03ceaa8")
+		)
+		(instances
+			(project ""
+				(path "/b6472d2e-e93c-4ee2-a887-2e70fff347c6"
+					(reference "BT1")
 					(unit 1)
 				)
 			)
