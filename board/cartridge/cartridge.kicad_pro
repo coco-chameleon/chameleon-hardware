@@ -60,20 +60,20 @@
       ],
       "drc_exclusions": [
         [
-          "hole_clearance|174220000|74600000|dcda6863-6c27-4a13-9b8f-fa2699503ca2|e4c260be-2cbd-4644-bf0a-a1c334cfe6df",
-          "unavoidable due to component footprint"
+          "hole_clearance|174220000|74600000|dcda6863-6c27-4a13-9b8f-fa2699503ca2|5e4fc705-adde-42d7-ae91-8e4faf518e69",
+          ""
         ],
         [
-          "hole_clearance|174220000|74800000|b2a39110-f839-4c20-b209-ddf5eda8d0c4|e4c260be-2cbd-4644-bf0a-a1c334cfe6df",
-          "unavoidable due to component footprint"
+          "hole_clearance|174220000|74800000|b2a39110-f839-4c20-b209-ddf5eda8d0c4|5e4fc705-adde-42d7-ae91-8e4faf518e69",
+          ""
         ],
         [
-          "hole_clearance|174220000|80200000|88920878-a5fe-41bb-9327-aeacc06a14eb|55e587b7-2087-46df-a465-0fcecb640831",
-          "unavoidable due to component footprint"
+          "hole_clearance|174220000|80200000|88920878-a5fe-41bb-9327-aeacc06a14eb|030b3c56-8b7e-45c9-8bd1-9096e8440ba1",
+          ""
         ],
         [
-          "hole_clearance|174220000|80400000|f9fef701-812f-4f13-b244-03ec559c81ba|55e587b7-2087-46df-a465-0fcecb640831",
-          "unavoidable due to component footprint"
+          "hole_clearance|174220000|80400000|f9fef701-812f-4f13-b244-03ec559c81ba|030b3c56-8b7e-45c9-8bd1-9096e8440ba1",
+          ""
         ]
       ],
       "meta": {

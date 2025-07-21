@@ -8939,6 +8939,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C554727"
+			(at 233.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "1727-8669-1-ND"
+			(at 233.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "60c89682-7994-47cb-ab11-c9a9f1b000cf")
 		)
@@ -9301,6 +9319,24 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger open collector"
+			(at 210.82 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C554727"
+			(at 210.82 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "1727-8669-1-ND"
 			(at 210.82 27.94 0)
 			(effects
 				(font
@@ -9672,47 +9708,65 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C554727"
+			(at 233.68 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "1727-8669-1-ND"
+			(at 233.68 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "60c89682-7994-47cb-ab11-c9a9f1b000cf")
+			(uuid "60c89682-7994-47cb-ab11-c9a9f1b000d0")
 		)
 		(pin "4"
-			(uuid "b789ed52-d4a3-40b6-bd45-51b54a1d89d4")
+			(uuid "b789ed52-d4a3-40b6-bd45-51b54a1d89d5")
 		)
 		(pin "12"
-			(uuid "67c9a52f-92b6-4077-89bd-4b8df001660a")
+			(uuid "67c9a52f-92b6-4077-89bd-4b8df001660c")
 		)
 		(pin "8"
-			(uuid "ebacd233-22eb-4868-91bf-c86ce097ad88")
+			(uuid "ebacd233-22eb-4868-91bf-c86ce097ad8a")
 		)
 		(pin "3"
-			(uuid "33e5001b-7471-41ad-bd76-fbb879b7a4d5")
+			(uuid "33e5001b-7471-41ad-bd76-fbb879b7a4d6")
 		)
 		(pin "6"
-			(uuid "2b30c3f4-3a48-4462-bba6-5be6d8a65619")
+			(uuid "2b30c3f4-3a48-4462-bba6-5be6d8a6561a")
 		)
 		(pin "1"
-			(uuid "3e1088a9-9ef1-43d1-b097-0ad00df0f351")
+			(uuid "3e1088a9-9ef1-43d1-b097-0ad00df0f352")
 		)
 		(pin "13"
-			(uuid "ce300eeb-a757-412f-8b7e-12b8576bcb65")
+			(uuid "ce300eeb-a757-412f-8b7e-12b8576bcb67")
 		)
 		(pin "10"
 			(uuid "0e059b69-67da-4253-a9b0-9d4312895e45")
 		)
 		(pin "7"
-			(uuid "c306e316-ce92-493c-a20b-9d5e5650f8ec")
+			(uuid "c306e316-ce92-493c-a20b-9d5e5650f8ee")
 		)
 		(pin "5"
-			(uuid "24a71b63-32c5-443c-b617-008feba64661")
+			(uuid "24a71b63-32c5-443c-b617-008feba64662")
 		)
 		(pin "14"
-			(uuid "c8b16d5c-b30e-457f-b895-ddb43bfc37a2")
+			(uuid "c8b16d5c-b30e-457f-b895-ddb43bfc37a4")
 		)
 		(pin "11"
 			(uuid "e3f52ec1-98b0-4ba8-b29f-441c612c7850")
 		)
 		(pin "9"
-			(uuid "e128bae7-f1d3-45e7-8555-cb6e91fc3b36")
+			(uuid "e128bae7-f1d3-45e7-8555-cb6e91fc3b38")
 		)
 		(instances
 			(project "cartridge"
@@ -10437,47 +10491,65 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C554727"
+			(at 91.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "1727-8669-1-ND"
+			(at 91.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "60c89682-7994-47cb-ab11-c9a9f1b000d0")
+			(uuid "60c89682-7994-47cb-ab11-c9a9f1b000d1")
 		)
 		(pin "4"
-			(uuid "b789ed52-d4a3-40b6-bd45-51b54a1d89d5")
+			(uuid "b789ed52-d4a3-40b6-bd45-51b54a1d89d6")
 		)
 		(pin "12"
-			(uuid "67c9a52f-92b6-4077-89bd-4b8df001660c")
+			(uuid "67c9a52f-92b6-4077-89bd-4b8df001660d")
 		)
 		(pin "8"
-			(uuid "ebacd233-22eb-4868-91bf-c86ce097ad8a")
+			(uuid "ebacd233-22eb-4868-91bf-c86ce097ad8b")
 		)
 		(pin "3"
-			(uuid "33e5001b-7471-41ad-bd76-fbb879b7a4d6")
+			(uuid "33e5001b-7471-41ad-bd76-fbb879b7a4d7")
 		)
 		(pin "6"
 			(uuid "23246739-958f-4f7e-b9a3-ded4951bfc42")
 		)
 		(pin "1"
-			(uuid "3e1088a9-9ef1-43d1-b097-0ad00df0f352")
+			(uuid "3e1088a9-9ef1-43d1-b097-0ad00df0f353")
 		)
 		(pin "13"
-			(uuid "ce300eeb-a757-412f-8b7e-12b8576bcb67")
+			(uuid "ce300eeb-a757-412f-8b7e-12b8576bcb68")
 		)
 		(pin "10"
 			(uuid "cdabb80e-6940-497b-853a-12448cca6097")
 		)
 		(pin "7"
-			(uuid "c306e316-ce92-493c-a20b-9d5e5650f8ee")
+			(uuid "c306e316-ce92-493c-a20b-9d5e5650f8ef")
 		)
 		(pin "5"
 			(uuid "0f900ac5-79f5-483e-93dc-2a41c1acdeab")
 		)
 		(pin "14"
-			(uuid "c8b16d5c-b30e-457f-b895-ddb43bfc37a4")
+			(uuid "c8b16d5c-b30e-457f-b895-ddb43bfc37a5")
 		)
 		(pin "11"
 			(uuid "b10c086b-1d6a-4497-9187-a5c0e00ced58")
 		)
 		(pin "9"
-			(uuid "e128bae7-f1d3-45e7-8555-cb6e91fc3b38")
+			(uuid "e128bae7-f1d3-45e7-8555-cb6e91fc3b39")
 		)
 		(instances
 			(project "cartridge"
@@ -10744,47 +10816,65 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C554727"
+			(at 91.44 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "1727-8669-1-ND"
+			(at 91.44 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "60c89682-7994-47cb-ab11-c9a9f1b000d1")
+			(uuid "60c89682-7994-47cb-ab11-c9a9f1b000d2")
 		)
 		(pin "4"
-			(uuid "b789ed52-d4a3-40b6-bd45-51b54a1d89d6")
+			(uuid "b789ed52-d4a3-40b6-bd45-51b54a1d89d7")
 		)
 		(pin "12"
-			(uuid "67c9a52f-92b6-4077-89bd-4b8df001660d")
+			(uuid "67c9a52f-92b6-4077-89bd-4b8df001660e")
 		)
 		(pin "8"
-			(uuid "ebacd233-22eb-4868-91bf-c86ce097ad8b")
+			(uuid "ebacd233-22eb-4868-91bf-c86ce097ad8c")
 		)
 		(pin "3"
-			(uuid "33e5001b-7471-41ad-bd76-fbb879b7a4d7")
+			(uuid "33e5001b-7471-41ad-bd76-fbb879b7a4d8")
 		)
 		(pin "6"
 			(uuid "0c0355f7-d2ec-429e-8c52-ecb254ea7078")
 		)
 		(pin "1"
-			(uuid "3e1088a9-9ef1-43d1-b097-0ad00df0f353")
+			(uuid "3e1088a9-9ef1-43d1-b097-0ad00df0f354")
 		)
 		(pin "13"
-			(uuid "ce300eeb-a757-412f-8b7e-12b8576bcb68")
+			(uuid "ce300eeb-a757-412f-8b7e-12b8576bcb69")
 		)
 		(pin "10"
 			(uuid "cdabb80e-6940-497b-853a-12448cca6098")
 		)
 		(pin "7"
-			(uuid "c306e316-ce92-493c-a20b-9d5e5650f8ef")
+			(uuid "c306e316-ce92-493c-a20b-9d5e5650f8f0")
 		)
 		(pin "5"
 			(uuid "7c15c9b8-72cc-487a-b957-397c8496b931")
 		)
 		(pin "14"
-			(uuid "c8b16d5c-b30e-457f-b895-ddb43bfc37a5")
+			(uuid "c8b16d5c-b30e-457f-b895-ddb43bfc37a6")
 		)
 		(pin "11"
 			(uuid "b10c086b-1d6a-4497-9187-a5c0e00ced59")
 		)
 		(pin "9"
-			(uuid "e128bae7-f1d3-45e7-8555-cb6e91fc3b39")
+			(uuid "e128bae7-f1d3-45e7-8555-cb6e91fc3b3a")
 		)
 		(instances
 			(project "cartridge"
@@ -11307,6 +11397,24 @@
 			)
 		)
 		(property "Description" "Bidirectional  level-shifting voltage translator, TSSOP-20"
+			(at 158.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17206"
+			(at 158.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "296-23011-1-ND"
 			(at 158.75 73.66 0)
 			(effects
 				(font
@@ -12161,17 +12269,35 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C554727"
+			(at 210.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "1727-8669-1-ND"
+			(at 210.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "60c89682-7994-47cb-ab11-c9a9f1b000d2")
+			(uuid "60c89682-7994-47cb-ab11-c9a9f1b000d3")
 		)
 		(pin "4"
 			(uuid "68e1055f-33e0-4a7f-b393-6579d7e769c5")
 		)
 		(pin "12"
-			(uuid "67c9a52f-92b6-4077-89bd-4b8df001660e")
+			(uuid "67c9a52f-92b6-4077-89bd-4b8df001660f")
 		)
 		(pin "8"
-			(uuid "ebacd233-22eb-4868-91bf-c86ce097ad8c")
+			(uuid "ebacd233-22eb-4868-91bf-c86ce097ad8d")
 		)
 		(pin "3"
 			(uuid "8e57c373-0bb9-4bb6-9e35-b3c737ef7643")
@@ -12180,28 +12306,28 @@
 			(uuid "0c0355f7-d2ec-429e-8c52-ecb254ea7079")
 		)
 		(pin "1"
-			(uuid "3e1088a9-9ef1-43d1-b097-0ad00df0f354")
+			(uuid "3e1088a9-9ef1-43d1-b097-0ad00df0f355")
 		)
 		(pin "13"
-			(uuid "ce300eeb-a757-412f-8b7e-12b8576bcb69")
+			(uuid "ce300eeb-a757-412f-8b7e-12b8576bcb6a")
 		)
 		(pin "10"
 			(uuid "cdabb80e-6940-497b-853a-12448cca6099")
 		)
 		(pin "7"
-			(uuid "c306e316-ce92-493c-a20b-9d5e5650f8f0")
+			(uuid "c306e316-ce92-493c-a20b-9d5e5650f8f1")
 		)
 		(pin "5"
 			(uuid "7c15c9b8-72cc-487a-b957-397c8496b932")
 		)
 		(pin "14"
-			(uuid "c8b16d5c-b30e-457f-b895-ddb43bfc37a6")
+			(uuid "c8b16d5c-b30e-457f-b895-ddb43bfc37a7")
 		)
 		(pin "11"
 			(uuid "b10c086b-1d6a-4497-9187-a5c0e00ced5a")
 		)
 		(pin "9"
-			(uuid "e128bae7-f1d3-45e7-8555-cb6e91fc3b3a")
+			(uuid "e128bae7-f1d3-45e7-8555-cb6e91fc3b3b")
 		)
 		(instances
 			(project "cartridge"
@@ -12529,7 +12655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Octal BUS Transceivers, 3-State outputs"
+		(property "Description" "Octal BUS Transceivers, 3-State outputs, Schmitt-trigger inputs"
 			(at 109.22 158.75 0)
 			(effects
 				(font
@@ -13388,6 +13514,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C554727"
+			(at 31.75 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "1727-8669-1-ND"
+			(at 31.75 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b96240b1-2b07-49ed-9d96-c257870ed0d5")
 		)
@@ -13395,10 +13539,10 @@
 			(uuid "68e1055f-33e0-4a7f-b393-6579d7e769c6")
 		)
 		(pin "12"
-			(uuid "67c9a52f-92b6-4077-89bd-4b8df001660f")
+			(uuid "67c9a52f-92b6-4077-89bd-4b8df0016610")
 		)
 		(pin "8"
-			(uuid "ebacd233-22eb-4868-91bf-c86ce097ad8d")
+			(uuid "ebacd233-22eb-4868-91bf-c86ce097ad8e")
 		)
 		(pin "3"
 			(uuid "8e57c373-0bb9-4bb6-9e35-b3c737ef7644")
@@ -13410,25 +13554,25 @@
 			(uuid "e8f11991-3d66-46f1-92a5-a202b8a72f65")
 		)
 		(pin "13"
-			(uuid "ce300eeb-a757-412f-8b7e-12b8576bcb6a")
+			(uuid "ce300eeb-a757-412f-8b7e-12b8576bcb6b")
 		)
 		(pin "10"
 			(uuid "cdabb80e-6940-497b-853a-12448cca609a")
 		)
 		(pin "7"
-			(uuid "c306e316-ce92-493c-a20b-9d5e5650f8f1")
+			(uuid "c306e316-ce92-493c-a20b-9d5e5650f8f2")
 		)
 		(pin "5"
 			(uuid "7c15c9b8-72cc-487a-b957-397c8496b933")
 		)
 		(pin "14"
-			(uuid "c8b16d5c-b30e-457f-b895-ddb43bfc37a7")
+			(uuid "c8b16d5c-b30e-457f-b895-ddb43bfc37a8")
 		)
 		(pin "11"
 			(uuid "b10c086b-1d6a-4497-9187-a5c0e00ced5b")
 		)
 		(pin "9"
-			(uuid "e128bae7-f1d3-45e7-8555-cb6e91fc3b3b")
+			(uuid "e128bae7-f1d3-45e7-8555-cb6e91fc3b3c")
 		)
 		(instances
 			(project "cartridge"
