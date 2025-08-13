@@ -10,7 +10,7 @@
 	(title_block
 		(title "CoCo Chameleon - Cartridge Emulator")
 		(date "2025-07-19")
-		(rev "v0.2pre")
+		(rev "v0.3pre")
 		(company "© 2023-2025 Sam Hanes, licensed CERN-OHL-W v2")
 		(comment 1 "https://github.com/coco-chameleon/chameleon-hardware")
 	)
@@ -1263,7 +1263,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "f9a9f50d-110a-44c3-b31c-23e6b7f62d86")
+			(uuid "c6cca97a-0d83-41d8-9df5-080893fcee35")
 		)
 		(pad "7" smd rect
 			(at 1.541 -5.95 90)
@@ -1272,7 +1272,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "f9a9f50d-110a-44c3-b31c-23e6b7f62d86")
+			(uuid "c9a7677d-04f9-40d4-84a0-f8396cafe5a1")
 		)
 		(pad "7" smd rect
 			(at 1.541 5.95 90)
@@ -1281,7 +1281,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "f9a9f50d-110a-44c3-b31c-23e6b7f62d86")
+			(uuid "0f03731d-2a70-4c28-9a25-5432504e4c97")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/../project.3dshapes/Nidec_CUS-14TB.step"
@@ -2703,7 +2703,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "6c5960d0-9483-495c-88b8-7689f8180d10")
+			(uuid "06d07a7f-e66c-446a-9d49-ec81bdd764c2")
 		)
 		(pad "41" thru_hole circle
 			(at -2.2 -2.09 180)
@@ -2716,7 +2716,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "6c5960d0-9483-495c-88b8-7689f8180d10")
+			(uuid "f4888092-e2c1-41ad-90bb-049e820cf649")
 		)
 		(pad "41" thru_hole circle
 			(at -2.2 -0.69 180)
@@ -2729,7 +2729,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "6c5960d0-9483-495c-88b8-7689f8180d10")
+			(uuid "8390eed5-bc43-46ca-bc64-1831e60fe641")
 		)
 		(pad "41" thru_hole circle
 			(at -2.2 0.71 180)
@@ -2742,7 +2742,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "6c5960d0-9483-495c-88b8-7689f8180d10")
+			(uuid "35d37702-e272-4333-99d9-25e7343598be")
 		)
 		(pad "41" thru_hole circle
 			(at -1.5 -1.39 180)
@@ -2755,7 +2755,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "6c5960d0-9483-495c-88b8-7689f8180d10")
+			(uuid "e1e0b2dc-88c0-4e5c-9e7a-0ee00fbf96f3")
 		)
 		(pad "41" smd rect
 			(at -1.5 -0.69 180)
@@ -2766,7 +2766,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "6c5960d0-9483-495c-88b8-7689f8180d10")
+			(uuid "249ca0a6-ce48-4916-bf64-eeec22186d5b")
 		)
 		(pad "41" thru_hole circle
 			(at -1.5 0.01 180)
@@ -2779,7 +2779,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "6c5960d0-9483-495c-88b8-7689f8180d10")
+			(uuid "969d5f34-98ad-41f3-9be3-86592a36a081")
 		)
 		(pad "41" thru_hole circle
 			(at -0.8 -2.09 180)
@@ -2792,7 +2792,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "6c5960d0-9483-495c-88b8-7689f8180d10")
+			(uuid "b9e1b176-18e9-4fe7-9307-513cd1cde4da")
 		)
 		(pad "41" thru_hole circle
 			(at -0.8 -0.69 180)
@@ -2805,7 +2805,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "6c5960d0-9483-495c-88b8-7689f8180d10")
+			(uuid "a0156897-238a-47eb-9ae7-0de1ee51d4a8")
 		)
 		(pad "41" thru_hole circle
 			(at -0.8 0.71 180)
@@ -2818,7 +2818,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "6c5960d0-9483-495c-88b8-7689f8180d10")
+			(uuid "10564c16-3ccb-45b2-95bb-2f4cd60ca657")
 		)
 		(pad "41" thru_hole circle
 			(at -0.1 -1.39 180)
@@ -2831,7 +2831,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "6c5960d0-9483-495c-88b8-7689f8180d10")
+			(uuid "5a7164db-3557-4457-a0d7-75b04a8f1aeb")
 		)
 		(pad "41" thru_hole circle
 			(at -0.1 0.01 180)
@@ -2844,7 +2844,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "6c5960d0-9483-495c-88b8-7689f8180d10")
+			(uuid "6f6a514f-b472-4aa8-b9de-8e1d840668db")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/../project.3dshapes/ESP32-S3-WROOM-1U.step"
@@ -13058,7 +13058,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "13522db7-b922-486a-a946-85b407b345e1")
+			(uuid "6addb05b-65d0-46b6-a859-ef6018666a5c")
 		)
 		(pad "7" smd rect
 			(at 1.541 -5.95 90)
@@ -13067,7 +13067,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "13522db7-b922-486a-a946-85b407b345e1")
+			(uuid "eee50bf9-359f-4c8c-9974-7cd85db11b93")
 		)
 		(pad "7" smd rect
 			(at 1.541 5.95 90)
@@ -13076,7 +13076,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "13522db7-b922-486a-a946-85b407b345e1")
+			(uuid "c19a5ab0-d637-4fad-9610-51fb24156f49")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/../project.3dshapes/Nidec_CUS-14TB.step"
@@ -14287,7 +14287,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "c5636fd9-9997-4460-8286-1a446cac8b32")
+			(uuid "9719439b-ea2e-4fbb-b921-7660e4239c52")
 		)
 		(pad "10" smd rect
 			(at 6.85 -4.3 90)
@@ -14296,7 +14296,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "c5636fd9-9997-4460-8286-1a446cac8b32")
+			(uuid "e0ec826e-d638-421b-afdb-95725f37b97c")
 		)
 		(pad "10" smd rect
 			(at 7.75 5.3 90)
@@ -14305,7 +14305,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "c5636fd9-9997-4460-8286-1a446cac8b32")
+			(uuid "db039e11-9575-45d8-80b5-647217439024")
 		)
 		(zone
 			(net 0)

@@ -7,7 +7,7 @@
 	(title_block
 		(title "CoCo Chameleon Cartridge Emulator")
 		(date "2025-07-19")
-		(rev "v0.2pre")
+		(rev "v0.3pre")
 		(company "© 2023-2025 Sam Hanes, licensed CERN-OHL-W v2")
 		(comment 1 "https://github.com/coco-chameleon/chameleon-hardware")
 	)
