@@ -4003,6 +4003,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 135.89) (xy 97.79 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dc17842-02b1-455d-87e4-bd8ff9108b40")
+	)
+	(wire
+		(pts
 			(xy 236.22 40.64) (xy 233.68 40.64)
 		)
 		(stroke
@@ -4743,6 +4753,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 138.43) (xy 97.79 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "983b49b0-9fe5-45fc-b26c-41d2161f33a4")
+	)
+	(wire
+		(pts
 			(xy 212.09 77.47) (xy 212.09 101.6)
 		)
 		(stroke
@@ -5301,6 +5321,16 @@
 		)
 		(uuid "5255747b-71a4-416f-8dd7-4c5199184cc8")
 	)
+	(label "USB_DN"
+		(at 97.79 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "59f2bf7c-0769-4c17-8df6-b7b3d9221a50")
+	)
 	(label "SD_DAT0"
 		(at 198.12 109.22 0)
 		(effects
@@ -5331,7 +5361,17 @@
 		)
 		(uuid "89cfbb60-7f0e-42b9-aa40-192b972469a6")
 	)
-	(label "USB_DM"
+	(label "USB_DP"
+		(at 97.79 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b54f72c-c233-4cb3-9e53-4b64b38d19aa")
+	)
+	(label "USB_DN"
 		(at 223.52 38.1 0)
 		(effects
 			(font
@@ -9936,6 +9976,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "USB_DN" input
+			(at 88.9 135.89 0)
+			(uuid "b7d21603-c627-47bd-970c-5b3224c2bcd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" input
+			(at 88.9 138.43 0)
+			(uuid "fba3032e-8113-49ae-aef3-561376b1222a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

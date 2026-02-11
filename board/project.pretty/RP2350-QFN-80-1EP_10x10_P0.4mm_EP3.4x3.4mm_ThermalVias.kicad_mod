@@ -52,6 +52,16 @@
 	(zone_connect 2)
 	(attr smd)
 	(fp_line
+		(start -5.15 -4.2)
+		(end -5.15 -5.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "af5a9715-257c-48e6-aa06-c1c33e9b0b79")
+	)
+	(fp_line
 		(start -5.15 5.15)
 		(end -5.15 4.2)
 		(stroke
@@ -63,7 +73,7 @@
 	)
 	(fp_line
 		(start -4.2 -5.15)
-		(end -5.39 -5.15)
+		(end -5.15 -5.15)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -120,6 +130,18 @@
 		)
 		(layer "F.SilkS")
 		(uuid "ef118ebb-0aab-4f69-991e-816d35faefce")
+	)
+	(fp_poly
+		(pts
+			(xy -5.6 -3.8) (xy -5.93 -3.56) (xy -5.93 -4.04)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "c35f5661-54d1-4090-a1f2-dd41b2809d4b")
 	)
 	(fp_line
 		(start -5.55 -5.55)
