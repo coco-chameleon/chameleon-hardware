@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.53,
-          "width": 0.47
+          "height": 2.0,
+          "width": 2.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -718,7 +718,7 @@
     ],
     [
       "8b3651c5-ee48-4ce2-8ea4-59e464f0ea85",
-      "CoCo"
+      "RP2350"
     ]
   ],
   "text_variables": {}

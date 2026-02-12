@@ -132,7 +132,7 @@
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "P"
-			(at 0 39.37 0)
+			(at 0 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -140,7 +140,7 @@
 			)
 		)
 		(property "Value" "Card Edge"
-			(at 5.08 22.86 0)
+			(at 0 -70.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -148,7 +148,7 @@
 			)
 		)
 		(property "Footprint" "0Project:CoCo_Cart"
-			(at 0 44.45 0)
+			(at 0 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,7 +157,7 @@
 			)
 		)
 		(property "Datasheet" "https://colorcomputerarchive.com/repo/Documents/Manuals/Hardware/Color%20Computer%202%20NTSC%20Service%20Manual%20(26-3134%20&%2026-3136)%20(Tandy).pdf"
-			(at 0 41.91 0)
+			(at 0 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -166,7 +166,7 @@
 			)
 		)
 		(property "Description" "TRS-80 Color Computer 1-3 Cartridge Connector"
-			(at 0 0 0)
+			(at 0 57.912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -176,8 +176,8 @@
 		)
 		(symbol "CoCo_Cart_1_1"
 			(rectangle
-				(start -8.89 38.1)
-				(end 8.89 -63.5)
+				(start -6.35 50.8)
+				(end 6.35 -68.58)
 				(stroke
 					(width 0)
 					(type default)
@@ -186,89 +186,17 @@
 					(type background)
 				)
 			)
-			(pin input line
-				(at -12.7 35.56 0)
+			(pin power_out line
+				(at 10.16 48.26 180)
 				(length 3.81)
-				(name "SND"
+				(name "+5V"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "35"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -12.7 25.4 0)
-				(length 3.81)
-				(name "~{CART}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -12.7 22.86 0)
-				(length 3.81)
-				(name "~{NMI}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -12.7 17.78 0)
-				(length 3.81)
-				(name "~{SLENB}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "40"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -12.7 10.16 0)
-				(length 3.81)
-				(name "~{HALT}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -277,7 +205,7 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 35.56 180)
+				(at 10.16 45.72 180)
 				(length 3.81)
 				(name "-12V"
 					(effects
@@ -295,7 +223,7 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 33.02 180)
+				(at 10.16 43.18 180)
 				(length 3.81)
 				(name "+12V"
 					(effects
@@ -312,26 +240,8 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 12.7 30.48 180)
-				(length 3.81)
-				(name "+5V"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
-				(at 12.7 25.4 180)
+				(at 10.16 38.1 180)
 				(length 3.81)
 				(name "~{RESET}"
 					(effects
@@ -349,7 +259,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 22.86 180)
+				(at 10.16 35.56 180)
 				(length 3.81)
 				(name "E"
 					(effects
@@ -367,7 +277,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 20.32 180)
+				(at 10.16 33.02 180)
 				(length 3.81)
 				(name "Q"
 					(effects
@@ -384,8 +294,80 @@
 					)
 				)
 			)
+			(pin input line
+				(at 10.16 27.94 180)
+				(length 3.81)
+				(name "~{CART}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 25.4 180)
+				(length 3.81)
+				(name "~{NMI}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 22.86 180)
+				(length 3.81)
+				(name "~{HALT}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 20.32 180)
+				(length 3.81)
+				(name "~{SLENB}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin output line
-				(at 12.7 17.78 180)
+				(at 10.16 15.24 180)
 				(length 3.81)
 				(name "~{CTS}"
 					(effects
@@ -403,7 +385,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 15.24 180)
+				(at 10.16 12.7 180)
 				(length 3.81)
 				(name "~{SCS}"
 					(effects
@@ -421,7 +403,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 12.7 10.16 180)
+				(at 10.16 10.16 180)
 				(length 3.81)
 				(name "R/~{W}"
 					(effects
@@ -439,7 +421,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 12.7 5.08 180)
+				(at 10.16 5.08 180)
 				(length 3.81)
 				(name "A0"
 					(effects
@@ -457,7 +439,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 12.7 2.54 180)
+				(at 10.16 2.54 180)
 				(length 3.81)
 				(name "A1"
 					(effects
@@ -475,7 +457,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 12.7 0 180)
+				(at 10.16 0 180)
 				(length 3.81)
 				(name "A2"
 					(effects
@@ -493,7 +475,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 12.7 -2.54 180)
+				(at 10.16 -2.54 180)
 				(length 3.81)
 				(name "A3"
 					(effects
@@ -511,7 +493,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 12.7 -5.08 180)
+				(at 10.16 -5.08 180)
 				(length 3.81)
 				(name "A4"
 					(effects
@@ -529,7 +511,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 12.7 -7.62 180)
+				(at 10.16 -7.62 180)
 				(length 3.81)
 				(name "A5"
 					(effects
@@ -547,7 +529,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 12.7 -10.16 180)
+				(at 10.16 -10.16 180)
 				(length 3.81)
 				(name "A6"
 					(effects
@@ -565,7 +547,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 12.7 -12.7 180)
+				(at 10.16 -12.7 180)
 				(length 3.81)
 				(name "A7"
 					(effects
@@ -583,7 +565,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 12.7 -15.24 180)
+				(at 10.16 -15.24 180)
 				(length 3.81)
 				(name "A8"
 					(effects
@@ -601,7 +583,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 12.7 -17.78 180)
+				(at 10.16 -17.78 180)
 				(length 3.81)
 				(name "A9"
 					(effects
@@ -619,7 +601,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 12.7 -20.32 180)
+				(at 10.16 -20.32 180)
 				(length 3.81)
 				(name "A10"
 					(effects
@@ -637,7 +619,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 12.7 -22.86 180)
+				(at 10.16 -22.86 180)
 				(length 3.81)
 				(name "A11"
 					(effects
@@ -655,7 +637,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 12.7 -25.4 180)
+				(at 10.16 -25.4 180)
 				(length 3.81)
 				(name "A12"
 					(effects
@@ -673,7 +655,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 12.7 -27.94 180)
+				(at 10.16 -27.94 180)
 				(length 3.81)
 				(name "A13"
 					(effects
@@ -691,7 +673,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 12.7 -30.48 180)
+				(at 10.16 -30.48 180)
 				(length 3.81)
 				(name "A14"
 					(effects
@@ -709,7 +691,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 12.7 -33.02 180)
+				(at 10.16 -33.02 180)
 				(length 3.81)
 				(name "A15"
 					(effects
@@ -727,7 +709,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 12.7 -38.1 180)
+				(at 10.16 -38.1 180)
 				(length 3.81)
 				(name "D0"
 					(effects
@@ -745,7 +727,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 12.7 -40.64 180)
+				(at 10.16 -40.64 180)
 				(length 3.81)
 				(name "D1"
 					(effects
@@ -763,7 +745,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 12.7 -43.18 180)
+				(at 10.16 -43.18 180)
 				(length 3.81)
 				(name "D2"
 					(effects
@@ -781,7 +763,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 12.7 -45.72 180)
+				(at 10.16 -45.72 180)
 				(length 3.81)
 				(name "D3"
 					(effects
@@ -799,7 +781,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 12.7 -48.26 180)
+				(at 10.16 -48.26 180)
 				(length 3.81)
 				(name "D4"
 					(effects
@@ -817,7 +799,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 12.7 -50.8 180)
+				(at 10.16 -50.8 180)
 				(length 3.81)
 				(name "D5"
 					(effects
@@ -835,7 +817,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 12.7 -53.34 180)
+				(at 10.16 -53.34 180)
 				(length 3.81)
 				(name "D6"
 					(effects
@@ -853,7 +835,7 @@
 				)
 			)
 			(pin tri_state line
-				(at 12.7 -55.88 180)
+				(at 10.16 -55.88 180)
 				(length 3.81)
 				(name "D7"
 					(effects
@@ -870,8 +852,26 @@
 					)
 				)
 			)
+			(pin input line
+				(at 10.16 -60.96 180)
+				(length 3.81)
+				(name "SND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_out line
-				(at 12.7 -60.96 180)
+				(at 10.16 -66.04 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -889,7 +889,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -60.96 180)
+				(at 10.16 -66.04 180)
 				(length 3.81)
 				(hide yes)
 				(name "GND"
