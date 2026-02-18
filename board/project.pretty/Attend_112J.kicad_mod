@@ -288,14 +288,14 @@
 		(at -4.95 5.7)
 		(size 1 1)
 		(drill 1)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "acfeb75b-acaf-49dd-9fe6-befd78ddd7fc")
 	)
 	(pad "" np_thru_hole circle
 		(at 3.05 5.7)
 		(size 1 1)
 		(drill 1)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "a487f4bb-948c-4337-ab95-43194598d0fe")
 	)
 	(pad "1" smd rect
@@ -379,7 +379,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F.Cu" "B.Cu")
+		(layer "F.Cu")
 		(uuid "1be2c7ef-c209-44b5-9304-dbbb1b1c3620")
 		(name "pins")
 		(hatch edge 0.5)
