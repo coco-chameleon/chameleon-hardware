@@ -5719,7 +5719,7 @@
 		(uuid "2028d5dd-519c-4674-a5d7-1401438951c1")
 	)
 	(label "+1V1_RP"
-		(at 201.93 49.53 0)
+		(at 189.23 66.04 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8073,12 +8073,13 @@
 				)
 			)
 		)
-		(property "Value" "3u3"
-			(at 191.77 47.625 90)
+		(property "Value" "AOTA-B201610S3R3-101-T"
+			(at 186.69 47.752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "0Project:L_Polarized_2016"
@@ -8090,7 +8091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://abracon.com/datasheets/AOTA-B201610S3R3-101-T.pdf"
 			(at 191.77 49.53 0)
 			(effects
 				(font
@@ -8101,6 +8102,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 191.77 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42411119"
+			(at 191.77 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8294,7 +8304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://abracon.com/datasheets/ABM8-272-T3.pdf"
 			(at 138.43 133.35 0)
 			(effects
 				(font
@@ -8325,6 +8335,15 @@
 		(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
 			(at 123.19 133.35 0)
 			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20625731"
+			(at 138.43 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9353,6 +9372,15 @@
 		(property private "KLC_S4.2_VREG_LX" "Should be placed next to DVDD."
 			(at 181.61 125.73 0)
 			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42415655"
+			(at 181.61 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)

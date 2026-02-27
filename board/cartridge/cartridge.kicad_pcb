@@ -5573,7 +5573,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*")
-		(path "/cf62e237-cc9a-4d86-85e4-b2ac178dcc0c")
+		(path "/aad9b668-ff86-422a-924f-509df30773a2")
 		(sheetname "/")
 		(sheetfile "cartridge.kicad_sch")
 		(attr smd)
@@ -8947,8 +8947,9 @@
 		(at 137 90.05)
 		(descr "Inductor with Polarity Marking 2016")
 		(property "Reference" "L1"
-			(at 0.2 -1.8 0)
+			(at 0 -1.8 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a37b4a9a-c154-4259-8825-56bbdf3e9574")
 			(effects
 				(font
@@ -8957,19 +8958,19 @@
 				)
 			)
 		)
-		(property "Value" "3u3"
-			(at 1.25 0 0)
+		(property "Value" "AOTA-B201610S3R3-101-T"
+			(at 0 1.7 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "8fec3d8b-439b-49db-9ba2-26bcb53c97c0")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify left)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://abracon.com/datasheets/AOTA-B201610S3R3-101-T.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8993,21 +8994,34 @@
 				)
 			)
 		)
+		(property "LCSC" "C42411119"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25f1ccf8-8106-45b7-ae6d-a0dbcb9517df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/8b3651c5-ee48-4ce2-8ea4-59e464f0ea85/61865493-c9b8-4932-a657-503e2d17e603")
 		(sheetname "/RP2350/")
 		(sheetfile "rp2350.kicad_sch")
 		(attr smd)
 		(fp_circle
-			(center -0.9 -1.3)
-			(end -0.758579 -1.3)
+			(center -1.524 -0.508)
+			(end -1.382579 -0.508)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "a03e450a-6ecf-4fe1-9ea1-86684f469667")
+			(uuid "deb836a1-fe2c-4a15-8359-8d89bdb367ef")
 		)
 		(fp_line
 			(start -1.25 -1.05)
@@ -9017,7 +9031,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a881a441-2156-4838-b1be-d4f5e93f47f3")
+			(uuid "218d284c-9920-447b-9576-cad397d4ba31")
 		)
 		(fp_line
 			(start -1.25 1.05)
@@ -9027,7 +9041,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "fe834c47-2519-4a92-aa79-f10b16662c5e")
+			(uuid "646374d5-b2c4-4fcd-bb59-35e7d4e77ac7")
 		)
 		(fp_line
 			(start 1.25 -1.05)
@@ -9037,7 +9051,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "cf7af29d-ad6a-4dba-9f79-a87750ab436f")
+			(uuid "775983b4-a5a1-4b62-a82e-2b79c68cc122")
 		)
 		(fp_line
 			(start 1.25 1.05)
@@ -9047,7 +9061,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "7c0309de-4fec-40e7-a58a-f31a30111624")
+			(uuid "abe4a806-4a74-47d6-aaa6-ae0ff8f72605")
 		)
 		(fp_line
 			(start -1 -0.8)
@@ -9057,7 +9071,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "40e69d6d-cc48-4ad6-bec0-ac211735a797")
+			(uuid "12a2937e-2ba5-4c93-ae1c-6cf9b0821d73")
 		)
 		(fp_line
 			(start -1 0.8)
@@ -9067,7 +9081,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f52df346-875b-43fd-8210-8ae144a14275")
+			(uuid "48142188-5777-4d26-801d-865c3f5b05e4")
 		)
 		(fp_line
 			(start 1 -0.8)
@@ -9077,7 +9091,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2d68f778-de47-45e4-af9d-74fd3e051580")
+			(uuid "2492c74d-59cc-449a-84ff-70704c8f4caf")
 		)
 		(fp_line
 			(start 1 0.8)
@@ -9087,7 +9101,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d647bbba-9cae-4d2e-839f-9ee2937bbd9e")
+			(uuid "7bc852a0-aefe-47b0-b5df-f6d32f70ed0a")
 		)
 		(fp_circle
 			(center -0.7 0)
@@ -9098,10 +9112,10 @@
 			)
 			(fill yes)
 			(layer "F.Fab")
-			(uuid "435ace52-84e4-4b9c-b81e-b67f3f2da281")
+			(uuid "7d83f1aa-e612-440b-832e-5759b294f18d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.4 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "c770b1c7-6c26-4030-a991-e116ac3bde71")
 			(effects
@@ -11628,7 +11642,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "b487f9ef-8b87-46bc-83c4-8d7bbcc5b8c6")
+			(uuid "1a7e4a97-3c5c-4ca9-b3ee-03819a529df3")
 		)
 		(pad "19" thru_hole circle
 			(at 0.41 -0.9 180)
@@ -11641,7 +11655,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "b487f9ef-8b87-46bc-83c4-8d7bbcc5b8c6")
+			(uuid "9fd345d9-b6c4-4f5c-99a0-1cac43083bcb")
 		)
 		(pad "19" thru_hole circle
 			(at 0.41 0.2 180)
@@ -11654,7 +11668,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "b487f9ef-8b87-46bc-83c4-8d7bbcc5b8c6")
+			(uuid "d7a59200-cad5-4395-8743-06b92c0a2d32")
 		)
 		(pad "19" thru_hole circle
 			(at 0.41 1.3 180)
@@ -11667,7 +11681,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "b487f9ef-8b87-46bc-83c4-8d7bbcc5b8c6")
+			(uuid "57b88a58-10b4-4cc5-a059-b7c88b281859")
 		)
 		(pad "19" thru_hole circle
 			(at 0.96 -0.35 180)
@@ -11680,7 +11694,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "b487f9ef-8b87-46bc-83c4-8d7bbcc5b8c6")
+			(uuid "1a20f24c-dd63-4907-8e5b-7de2c6368431")
 		)
 		(pad "19" smd rect
 			(at 0.96 0.2 180)
@@ -11691,7 +11705,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "b487f9ef-8b87-46bc-83c4-8d7bbcc5b8c6")
+			(uuid "78ca0cc0-4365-462e-9873-bca36308580b")
 		)
 		(pad "19" thru_hole circle
 			(at 0.96 0.75 180)
@@ -11704,7 +11718,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "b487f9ef-8b87-46bc-83c4-8d7bbcc5b8c6")
+			(uuid "c33051bc-cc8a-4579-9663-6e55d53c0468")
 		)
 		(pad "19" thru_hole circle
 			(at 1.51 -0.9 180)
@@ -11717,7 +11731,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "b487f9ef-8b87-46bc-83c4-8d7bbcc5b8c6")
+			(uuid "97452cc7-69ab-43ea-b793-50577a4d5fa3")
 		)
 		(pad "19" thru_hole circle
 			(at 1.51 0.2 180)
@@ -11730,7 +11744,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "b487f9ef-8b87-46bc-83c4-8d7bbcc5b8c6")
+			(uuid "a3b96520-9bff-4f0d-90ac-683b0d76b788")
 		)
 		(pad "19" thru_hole circle
 			(at 1.51 1.3 180)
@@ -11743,7 +11757,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "b487f9ef-8b87-46bc-83c4-8d7bbcc5b8c6")
+			(uuid "361a1a38-1639-4d6e-8daa-2fe554701790")
 		)
 		(pad "19" thru_hole circle
 			(at 2.06 -0.35 180)
@@ -11756,7 +11770,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "b487f9ef-8b87-46bc-83c4-8d7bbcc5b8c6")
+			(uuid "8b623f20-3df4-4fe0-b851-1db73bccc82a")
 		)
 		(pad "19" thru_hole circle
 			(at 2.06 0.75 180)
@@ -11769,7 +11783,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "b487f9ef-8b87-46bc-83c4-8d7bbcc5b8c6")
+			(uuid "47420001-0f48-4aae-a975-9c937fb6cd73")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-C3-WROOM-02U.step"
@@ -11813,7 +11827,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://abracon.com/datasheets/ABM8-272-T3.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11833,6 +11847,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C20625731"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95eeab23-abb2-4475-82a8-df3186248711")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -16807,6 +16834,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C42415655"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8de8b776-0854-48e3-967a-6dfc1ff394b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "*QFN*10x10mm?P0.4mm?EP3.4x3.4mm*")
 		(path "/8b3651c5-ee48-4ce2-8ea4-59e464f0ea85/d2e8b121-c76b-4b37-a8d4-790c608bb7bb")
 		(sheetname "/RP2350/")
@@ -18708,7 +18748,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "db039e11-9575-45d8-80b5-647217439024")
+			(uuid "817e2802-343b-4d8a-bf9e-e1a0ad1a4c98")
 		)
 		(pad "10" smd rect
 			(at 6.85 -4.3 90)
@@ -18717,7 +18757,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "db039e11-9575-45d8-80b5-647217439024")
+			(uuid "c3cd7d66-45f1-4f93-957f-a8662c6d1ff2")
 		)
 		(pad "10" smd rect
 			(at 7.75 5.3 90)
@@ -18726,7 +18766,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "db039e11-9575-45d8-80b5-647217439024")
+			(uuid "9c058b42-08f9-4a66-ad78-725d5f256aa8")
 		)
 		(zone
 			(net 0)
@@ -21070,7 +21110,7 @@
 			(net 126 "Net-(BT1-+)")
 			(pinfunction "+")
 			(pintype "passive")
-			(uuid "9aef359d-e860-4efe-9521-dd38236b7add")
+			(uuid "c2e72545-a49d-4f05-94ce-a0e12a9f9ac5")
 		)
 		(pad "2" smd circle
 			(at 0 0 90)

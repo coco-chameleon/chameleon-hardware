@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "Inductor with Polarity Marking 2016")
 	(property "Reference" "L1"
-		(at 0.2 -1.8 0)
+		(at 0 -1.8 0)
 		(layer "F.SilkS")
 		(uuid "61a042cc-c964-4cf6-9226-416c7a94eac9")
 		(effects
@@ -52,8 +52,8 @@
 	)
 	(attr smd)
 	(fp_circle
-		(center -0.9 -1.3)
-		(end -0.758579 -1.3)
+		(center -1.524 -0.508)
+		(end -1.382579 -0.508)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -154,7 +154,7 @@
 		(uuid "15752956-1f18-402a-8d5c-f13c9d6e38f1")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -1.4 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "fe07a43c-a5ba-40b8-a0c4-41641c5f4eed")
 		(effects
@@ -177,7 +177,7 @@
 		(uuid "4a0a2b87-dc8b-43ae-a902-395fa01cc959")
 	)
 	(embedded_fonts no)
-	(model "${KICAD7_3DMODEL_DIR}/Inductor_SMD.3dshapes/AOTA-B201610SR47MT.STEP"
+	(model "${KIPRJMOD}/../project.3dshapes/Abracon_AOTA-B201610S.step"
 		(offset
 			(xyz 0 0 0.5)
 		)
